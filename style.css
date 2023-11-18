@@ -64043,3 +64043,15 @@ footer a span {
     font-size: 12px !important;
     opacity: .6 !important;
 }
+
+#line {
+width: 60px;
+height: 1.8px;
+background-color: #ccc;
+border-radius: 100px;
+}
+
+#bg-grey {
+    background-color : #fafafa;
+    border: 1px solid #ccc;
+}
