@@ -6,6 +6,7 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then((response) =>
+    
       window.location.assign("https://www.instagram.com/iamuttampatra69/")
     )
     .catch((error) => console.error("Error!", error.message));
